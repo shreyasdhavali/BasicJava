@@ -1,4 +1,4 @@
-package com.sand.java.techGig;// Java program to print all combination of size r in an array of size n
+package com.sand.java.string.techGig;// Java program to print all combination of size r in an array of size n
 import java.io.*;
 import java.util.Scanner;
 

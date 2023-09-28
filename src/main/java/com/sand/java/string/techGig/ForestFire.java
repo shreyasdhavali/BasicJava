@@ -1,4 +1,4 @@
-package com.sand.java.techGig;
+package com.sand.java.string.techGig;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;

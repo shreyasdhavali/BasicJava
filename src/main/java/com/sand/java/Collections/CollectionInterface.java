@@ -202,7 +202,7 @@ public class CollectionInterface {
 
         // get distinct record without set
         int[] ax = {1,5,6,6,7,9,9,4,2,1,3,5,7,8,0,9};
-        Arrays.stream(ax).mapToObj(Integer::valueOf).collect(Collectors.toList())
+        Arrays.stream(ax).boxed().collect(Collectors.toList())
                 .stream().distinct().sorted().forEach(ix -> System.out.print(ix + " "));
         List<String> l1 = new ArrayList<>();
         l1.add("Shreyas");

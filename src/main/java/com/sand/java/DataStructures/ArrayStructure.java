@@ -144,6 +144,32 @@ public class ArrayStructure {
         intToBinary(p);
     }
 
+    private static void diagonalPrint() {
+        int[][] matrix = {
+                {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12},
+                {13, 14, 15, 16}
+        };
+
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        // Iterate through diagonals
+        for (int diagonal = 0; diagonal < rows + cols - 1; diagonal++) {
+            int startRow = Math.max(0, diagonal - cols + 1);
+            int startCol = Math.min(diagonal, cols - 1);
+
+            // Print elements along the diagonal
+            while (startRow < rows && startCol >= 0) {
+                System.out.print(matrix[startCol][startRow] + " ");
+                startRow++;
+                startCol--;
+            }
+            System.out.println(); // Move to the next diagonal
+        }
+    }
+
     public static void main(String[] args) {
         int[] arr = {12, 13, 1, 10, 34, 1};
         int search = 1;

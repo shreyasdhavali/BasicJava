@@ -1,4 +1,4 @@
-package com.sand.java.techGig;
+package com.sand.java.string.techGig;
 
 import java.io.*;
 import java.util.*;

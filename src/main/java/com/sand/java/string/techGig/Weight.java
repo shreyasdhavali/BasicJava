@@ -1,4 +1,4 @@
-package com.sand.java.techGig;/* Read input from STDIN. Print your output to STDOUT*/
+package com.sand.java.string.techGig;/* Read input from STDIN. Print your output to STDOUT*/
 
 import java.io.*;
 import java.util.*;
